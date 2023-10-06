@@ -1,6 +1,6 @@
 # Application Météo
 
-<img src="https://i.ibb.co/D1pKsNr/Recording-2023-10-06-at-16-21-52-1.gif" alt="Capture d'écran de l'Application Météo" style="width:700px;"/>
+<img src="https://i.ibb.co/rxVXZW9/Recording-2023-10-06-at-16-21-52-1-1.gif" alt="Capture d'écran de l'Application Météo" style="width:700px;"/>
 
 ## Description
 
