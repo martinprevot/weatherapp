@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script/resultCity.js" async></script>
+    <script type="text/javascript" src="script/displayInfo.js" async></script>
+    <script type="text/javascript" src="script/getFlagEmoji.js" async></script>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+    <input autocomplete="off" type="city" name="city" placeholder="Search city" id="search">
+    <div id="resultBar" style="visibility: hidden;">
+        <div id="resultsList">
+            <ul style="visibility: hidden;">
+                <li>
+                    <div class="city-button">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <img src="images/loading.gif" alt="loading" id="loading">
+    </div>
+    <div id="weatherInfo">
+        <img src="images/weather-icons/Sunny.png" alt="sunny" id="icon" class="center" width="300"  style="visibility: hidden;">
+        <div id="weatherDiv"  style="visibility: hidden;">
+            <h1 id="temperature" class="otto">0°C</h1>
+            <h1 id="weatherText" class="otto">Sunny</h1>
+        </div>
+    </div>
+    <h1 id="hourText" class="otto" style="visibility: hidden;">11/11/1111 00:00:00</h1>
+</body>
+</html>

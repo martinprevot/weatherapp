@@ -1,0 +1,187 @@
+@font-face {
+  font-family: San_Francisco;
+  font-weight: 400;
+  src: url("./font/sanfranciscodisplay-regular-webfont.woff");
+}
+
+html{
+    background: url(images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#search{
+    border: none;
+    font-family: San_Francisco;
+    position :absolute;
+    font-size: 30pt;
+    width: calc(100vw - 300px);
+    top: 1vh;
+    left: calc(50vw - (100vw - 300px)/2);
+    opacity: 0.7;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0px 0px;
+    transition: opacity 0.5s, top 0.5s, font-size 0.5s, border-radius 0.5s, padding 0.5s;
+}
+
+
+#search:focus{
+    outline: none;
+    opacity: 0.9;
+    top: 5vh;
+    font-size: 90pt;
+    border-radius: 30px;
+    padding: 20px 30px;
+    transition: opacity 0.5s, top 0.5s, font-size 0.5s, border-radius 0.5s, padding 0.5s;
+}
+
+h1{
+    font-family: San_Francisco;
+    text-align: center;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.otto {
+  color: white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+#icon{
+    position: absolute;
+    top : 20%;
+    left: calc(50vw - 150px);
+}
+
+
+#weatherDiv{
+    margin-top : 60vh;
+    color: white;
+
+}
+
+
+
+#hourText{
+    width: 900px;
+    font-size: 70pt;
+    position: absolute;
+    top : 75vh;
+    left:calc(50vw - 900px/2);
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#resultBar{
+    z-index: 2;
+    width: calc(100vw - 300px);
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0px 0px;
+    height: 50vh;
+    position: absolute;
+    opacity: 0.9;
+    top: calc(5vh + 185px + 10px);
+    left: calc(50vw - (100vw - 300px)/2);
+    font-size: 90pt;
+    border-radius: 30px;
+    padding: 20px 30px;
+    transition: opacity 0.5s, top 0.5s, font-size 0.5s, border-radius 0.5s, padding 0.5s;
+}
+
+
+.fade-in { animation: fadeIn 500ms; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 0.9; }
+}
+
+.fade-out { animation: fadeOut 500ms; }
+
+@keyframes fadeOut {
+  0% { opacity: 0.9; }
+  100% { opacity: 0; }
+}
+
+#loading{
+    width: 100px;
+    position: absolute;
+    top:calc(50vh/2 - 50px);
+    left: calc( (100vw - 300px) / 2 - 30px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.city-button {
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.flag {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.city-button:hover {
+    background-color: #e0e0e0;
+}
+
+#resultsList {
+    font-family: San_Francisco;
+    height: calc(50vh - 20px);
+    overflow-y: scroll;
+}
+
+
+#temperature {
+    margin-bottom: 10px;
+    font-size: 50pt;
+}
+
+#weatherText{
+    margin-top: 0px;
+}
