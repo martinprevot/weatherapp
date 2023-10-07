@@ -190,9 +190,10 @@ li {
 @media all and (max-width: 1024px){
     #search{
         width: calc(100vw - 50px);
-        left: calc(50vw - (100vw - 50px)/2);
+        left: calc(50vw - (100vw - 50px)/2 - 5px);
         transition: opacity 0.5s, top 0.5s, font-size 0.5s, border-radius 0.5s, padding 0.5s, left 0.5s;
-
+        font-size: 20pt;
+        padding: 10px 5px;
     }
 
     #resultBar{
@@ -200,6 +201,7 @@ li {
         left: calc(50vw - (100vw - 50px)/2 - 30px);
         
     }
+
     #search:focus{
         width: calc(100vw - 50px);
         left: calc(50vw - (100vw - 50px)/2 - 30px);
