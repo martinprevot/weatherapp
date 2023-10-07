@@ -19,6 +19,7 @@ L'Application Météo est une application web qui permet aux utilisateurs de rec
 - API externes : [En savoir plus](#crédits)
 - Polices de caractères et icônes personnalisées
 - Transitions CSS
+- La page web est responsive et s'ajuste automatiquement à la taille de l'écran.
 
 ## Comment Utiliser
 
@@ -35,10 +36,6 @@ L'Application Météo est une application web qui permet aux utilisateurs de rec
 ## Crédits
 - Données météorologiques et de géocodages fournies par [Open Meteo](https://open-meteo.com/)
 - Icônes de drapeaux fournies par [Flags API](https://flagsapi.com/)
-
-## Licence
-
-Ce projet est sous licence MIT - consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Auteur
 
