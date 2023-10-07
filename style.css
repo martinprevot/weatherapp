@@ -185,3 +185,25 @@ li {
 #weatherText{
     margin-top: 0px;
 }
+
+@media all and (max-width: 1024px){
+    #search{
+        width: calc(100vw - 50px);
+        left: calc(50vw - (100vw - 50px)/2);
+        transition: opacity 0.5s, top 0.5s, font-size 0.5s, border-radius 0.5s, padding 0.5s, left 0.5s;
+
+    }
+
+    #resultBar{
+        width: calc(100vw - 50px);
+        left: calc(50vw - (100vw - 50px)/2 - 30px);
+        
+    }
+    #search:focus{
+        width: calc(100vw - 50px);
+        left: calc(50vw - (100vw - 50px)/2 - 30px);
+        font-size: 50pt;
+        transition: opacity 0.5s, top 0.5s, font-size 0.5s, border-radius 0.5s, padding 0.5s, left 0.5s;
+        
+    }
+}

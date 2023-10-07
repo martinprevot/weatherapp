@@ -1,6 +1,6 @@
 # Application Météo
 
-<img src="https://i.ibb.co/rxVXZW9/Recording-2023-10-06-at-16-21-52-1-1.gif" alt="Capture d'écran de l'Application Météo" style="width:700px;"/>
+<img src="https://i.ibb.co/c88ZYWK/ezgif-5-3db238e91f.gif" alt="Capture d'écran de l'Application Météo" style="width:700px;"/>
 
 ## Description
 
@@ -40,10 +40,10 @@ L'Application Météo est une application web qui permet aux utilisateurs de rec
 
 Ce projet est sous licence MIT - consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## Auteurs
+## Auteur
 
 - [Daniel MONTEIRO (DanielDSM23)](https://github.com/DanielDSM23) ``/script/resultCity.js``, `style.css`, `ìndex.html`
-- [Martin PREVOT](https://github.com/martinprevot) ``/script/displayInfo.js``
+- [Martin PREVOT]() ``/script/displayInfo.js``
 
 ## Utilisations
 
