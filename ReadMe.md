@@ -12,6 +12,7 @@ L'Application Météo est une application web qui permet aux utilisateurs de rec
 - Affichage des conditions météorologiques actuelles, y compris la température et l'icône météo.
 - Affichage de la date et de l'heure pour la ville sélectionnée.
 - Interface utilisateur interactive avec des transitions fluides.
+- La page web est responsive et s'ajuste automatiquement à la taille de l'écran.
 
 ## Technologies Utilisées
 
@@ -19,7 +20,6 @@ L'Application Météo est une application web qui permet aux utilisateurs de rec
 - API externes : [En savoir plus](#crédits)
 - Polices de caractères et icônes personnalisées
 - Transitions CSS
-- La page web est responsive et s'ajuste automatiquement à la taille de l'écran.
 
 ## Comment Utiliser
 
