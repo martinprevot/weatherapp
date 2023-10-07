@@ -109,7 +109,7 @@ h1{
     position: absolute;
     opacity: 0.9;
     top: calc(5vh + 185px + 10px);
-    left: calc(50vw - (100vw - 300px)/2);
+    left: calc(50vw - (100vw - 300px)/2 - 30px);;
     font-size: 90pt;
     border-radius: 30px;
     padding: 20px 30px;
