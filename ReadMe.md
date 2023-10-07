@@ -40,7 +40,7 @@ L'Application Météo est une application web qui permet aux utilisateurs de rec
 ## Auteur
 
 - [Daniel MONTEIRO (DanielDSM23)](https://github.com/DanielDSM23) ``/script/resultCity.js``, `style.css`, `ìndex.html`
-- [Martin PREVOT]() ``/script/displayInfo.js``
+- [Martin PREVOT](https://github.com/martinprevot) ``/script/displayInfo.js``
 
 ## Utilisations
 
